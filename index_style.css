@@ -1,0 +1,41 @@
+body{
+
+}
+
+#top{
+  float: right;
+}
+
+img{
+  width: 15em;
+  height: 10em;
+}
+
+#projects{
+  width:60em;
+  margin: auto;
+  text-align: center;
+}
+
+#wbt{
+  width: 15em;
+  margin: 1em;
+  float:left;
+}
+
+#pert{
+  width:15em;
+  margin: 1em;
+  float:left;
+}
+
+#gantt{
+  width: 15em;
+  margin: 1em;
+  float:left;
+}
+
+.button {
+    width: 18em;
+    height: 5em;
+}
