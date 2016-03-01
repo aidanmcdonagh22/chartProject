@@ -1,0 +1,10 @@
+#form{
+  float: left;
+}
+
+#grid{
+  width:800px;
+  height:400px;
+  float: left;
+  background-color: grey;
+}
