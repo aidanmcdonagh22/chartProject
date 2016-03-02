@@ -42,7 +42,12 @@ h1 {
 }
 
 .box {
+  margin-top: 2px;
   height: 275px;
   width:33.33333333%;
   float:left;
+}
+
+.box img {
+  vertical-align: middle;
 }
