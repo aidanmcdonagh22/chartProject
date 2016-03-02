@@ -1,0 +1,48 @@
+@import url('http://fonts.googleapis.com/css?family=Exo');
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+body {
+  font-family:'Exo', sans-serif;
+  font-size: 13px;
+  background: #D4D6D6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 75px;
+  width: 100%;
+  background: #000000;
+  position: fixed;
+  z-index: 100;
+}
+
+.navbar h1 {
+  color: #FFFFFF;
+  width: inherit;
+}
+
+.mainBody {
+  height: 500px;
+  width: 100%;
+  padding-top: 76px;
+}
+
+.container {
+  width: 100%;
+}
+
+.box {
+  height: 275px;
+  width:33.33333333%;
+  float:left;
+}
