@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Project Chart</title>
-  <link rel="stylesheet" type="text/css" href="index_style.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-  <div id="top">
-    <a href="contact.html"> Contact Us </a>
+
+  <div class="navbar">
+    <h1>Select a Project</h1>
+    <ul>
+      <li><a class="container" href="#">About</a></li>
+      <li><a class="container" href="#">WBT</a></li>
+      <li><a class="container" href="#">Pert</a></li>
+      <li><a class="container" href="#">Gantt</a></li>
+    </ul>
   </div>
-  <div id="projects">
-  <h1>Select a Project Graph </h1>
-  <div id="wbt">
-    <div id="wbt_pic">
-      <img src="images/wbt_ph.jpg"/>
-    </div>
-    <div id="wbt_button">
-      <input type="button" class="button" value="WBT
-(Work Breakdown Tree)"/>
+
+  <div class="mainBody">
+    <div class="container">
+
+      <div class="box">
+        <h1>WBT</h1>
+        <a href="#">
+          <div class="container">
+            <img src="css/images/wbt.jpg" alt="WBT Image" height="200px" width="inhert">
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <h1>Pert</h1>
+        <a href="#">
+          <div class="container">
+            <img src="css/images/pert.jpg" alt="WBT Image" height="200px" width="inhert">
+          </div>
+        </a>
+      </div>
+
+      <div class="box">
+        <h1>Gantt</h1>
+        <a href="#">
+          <div class="container">
+            <img src="css/images/gant.jpg" alt="WBT Image" height="200px" width="inhert">
+          </div>
+        </a>
+      </div>
+
     </div>
   </div>
-  <div id="pert">
-    <div id="pert_pic">
-      <img src="images/pert_ph.jpg"/>
-    </div>
-    <div id="pert_button">
-      <input type="button" class="button" value="PERT CHART"/>
-    </div>
-  </div>
-  <div id="gantt">
-    <div id="gantt_pic">
-      <img src="images/gantt_ph.jpg"/>
-    </div>
-    <div id="gantt_button">
-      <input type="button" class="button" value="GANTT CHART"/>
-    </div>
-  </div>
-</div>
+
 </body>
+
 </html>
