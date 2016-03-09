@@ -1,6 +1,6 @@
 <?php
 
-include('inc/header.php');
+include("inc/header.php");
 
 ?>
 
@@ -9,7 +9,7 @@ include('inc/header.php');
 
       <div class="box">
         <h1>WBT</h1>
-        <a href="#">
+        <a href="wbt.php">
           <div class="container">
             <img src="css/images/wbt.jpg" alt="WBT Image" height="200px" width="inhert">
           </div>
@@ -18,18 +18,18 @@ include('inc/header.php');
 
       <div class="box">
         <h1>Pert</h1>
-        <a href="#">
+        <a href="pert.php">
           <div class="container">
-            <img src="css/images/pert.jpg" alt="WBT Image" height="200px" width="inhert">
+            <img src="css/images/pert.jpg" alt="pert Image" height="200px" width="inhert">
           </div>
         </a>
       </div>
 
       <div class="box">
         <h1>Gantt</h1>
-        <a href="#">
+        <a href="gant.php">
           <div class="container">
-            <img src="css/images/gant.jpg" alt="WBT Image" height="200px" width="inhert">
+            <img src="css/images/gant.jpg" alt="gant Image" height="200px" width="inhert">
           </div>
         </a>
       </div>

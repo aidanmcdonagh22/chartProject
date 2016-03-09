@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html>
 
@@ -18,5 +17,3 @@
       <li><a class="container" href="#">Gantt</a></li>
     </ul>
   </div>
-
-?>
