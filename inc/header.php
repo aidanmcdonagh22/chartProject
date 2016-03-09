@@ -12,8 +12,8 @@
     <h1>Select a Project</h1>
     <ul>
       <li><a class="container" href="#">About</a></li>
-      <li><a class="container" href="#">WBT</a></li>
-      <li><a class="container" href="#">Pert</a></li>
-      <li><a class="container" href="#">Gantt</a></li>
+      <li><a class="container" href="wbt.php">WBT</a></li>
+      <li><a class="container" href="pert.php">Pert</a></li>
+      <li><a class="container" href="gant.php">Gantt</a></li>
     </ul>
   </div>
