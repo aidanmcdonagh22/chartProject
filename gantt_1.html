@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Gantt Chart v1 </title>
+  <link rel="stylesheet" type="text/css" href="gantt_1.css">
+  <script src="ganttChart.js"></script>
+</head>
+<body>
+  <div id="form">
+    <table id="gantt">
+      <tr>
+        <td>TASK</td>
+        <td>Description</td>
+        <td>Start</td>
+        <td>Finish</td>
+        <td>Prerequisites</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>
+          Start
+          <!--<input type='text' id="tdescription1" />-->
+        </td>
+        <td>
+          <input type='date' id="start1" />
+        </td>
+        <td>
+          <!--<input type='date' id="finish1" />-->
+        </td>
+        <td>
+          <!--<input type='number' id="prerequistes1" />-->
+        </td>
+        <td>
+          <input type="button" id="add_input1" style="display:block" onClick="addInputs(this)" value="+" />
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="grid">
+    <svg id="svg_area">
+    </svg>
+  </div>
+
+</body>
+</html>
